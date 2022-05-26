@@ -1,0 +1,9 @@
+{% extends "authapp/base.html" %}
+
+{% block title %}file uploader{% endblock title %}
+{% block content %}
+    <div align="center">
+        <h1 align="center">upload your files</h1>
+        <a href="{% url 'upload_form:form' %}"><button>upload</button></a>
+    </div>
+{% endblock content %}
